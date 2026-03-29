@@ -5,7 +5,7 @@
 CCA Prep is a community study site for the Claude Certified Architect — Foundations exam. Not affiliated with Anthropic.
 
 - **Stack:** Docusaurus 3.9.2, React 19, TypeScript 5.6
-- **Hosted:** GitLab Pages — `https://cca-prep-a54506.git.pages.epam.com`
+- **Hosted:** GitHub Pages — `https://www.claudecertprep.com`
 - **Node requirement:** >=20.0
 
 ## Build Commands

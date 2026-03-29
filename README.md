@@ -1,6 +1,6 @@
 # CCA Prep — Claude Certified Architect Study Guide
 
-### [🔥 CHECK IT OUT! — Live Study Guide](https://cca-prep-a54506.git.pages.epam.com/)
+### [🔥 CHECK IT OUT! — Live Study Guide](https://www.claudecertprep.com)
 
 Community study resource for the **Claude Certified Architect — Foundations (CCA)** certification.
 
