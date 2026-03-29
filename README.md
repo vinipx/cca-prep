@@ -2,6 +2,8 @@
 
 ### [🔥 CHECK IT OUT! — Live Study Guide](https://www.claudecertprep.com)
 
+[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/vinipx)
+
 Community study resource for the **Claude Certified Architect — Foundations (CCA)** certification.
 
 > Not affiliated with Anthropic. Independent community resource.
@@ -16,11 +18,13 @@ npm start
 
 ## What's inside
 
-- 100 practice questions across 4 difficulty tiers and 5 domains
+- 170 practice questions across 4 difficulty tiers and 5 domains
 - Every wrong answer links to the relevant official Anthropic documentation
-- 20 flashcards with keyboard navigation
-- 11-item cheat sheet with code examples
-- 7 anti-pattern breakdowns with correct alternatives
+- Mock exam — 60-question, 120-minute timed simulation with domain-weighted selection, question palette, flag-for-review, and full results breakdown
+- 2 exam modes — Simulated (timed, no feedback until submit) and Practice (all 170 questions, no time limit, instant feedback)
+- 46 flashcards with keyboard navigation
+- 30-item cheat sheet with code examples
+- 18 anti-pattern breakdowns with correct alternatives
 - Deep-dive study guide for all 5 exam domains
 - Exam overview with all 6 scenarios and a 6-week study plan
 
