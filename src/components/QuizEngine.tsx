@@ -159,7 +159,7 @@ export default function QuizEngine() {
             <span className={`tier-badge ${TIER_CLASS[q.tier]}`}>{TIER_LABELS[q.tier]}</span>
             {q.scenario && (
               <span style={{ fontSize: '0.75rem', color: 'var(--ifm-color-emphasis-500)' }}>
-                📋 {q.scenario}
+                📋 Scenario-based
               </span>
             )}
           </div>
