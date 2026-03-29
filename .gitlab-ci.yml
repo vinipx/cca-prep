@@ -1,0 +1,42 @@
+image: node:20
+
+stages:
+  - build
+  - validate
+  - deploy
+
+cache:
+  paths:
+    - node_modules/
+
+install_dependencies:
+  stage: build
+  script:
+    - npm ci
+  artifacts:
+    paths:
+      - node_modules/
+
+typecheck:
+  stage: validate
+  script:
+    - npm run typecheck
+  dependencies:
+    - install_dependencies
+
+pages:
+  stage: deploy
+  variables:
+    DOCS_URL: "https://cca-prep-a54506.git.pages.epam.com"
+    DOCS_BASE_URL: "/"
+  script:
+    - npm run build
+    - mv build public
+    - echo "Pages deployed at $CI_PAGES_URL"
+  artifacts:
+    paths:
+      - public
+  dependencies:
+    - install_dependencies
+  only:
+    - main
