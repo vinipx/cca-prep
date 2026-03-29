@@ -304,7 +304,7 @@ function ExamScreen({
             <span className={`tier-badge ${TIER_CLASS[q.tier]}`}>{TIER_LABELS[q.tier]}</span>
             {q.scenario && (
               <span style={{ fontSize: '0.75rem', color: 'var(--ifm-color-emphasis-500)' }}>
-                📋 {q.scenario}
+                📋 Scenario-based
               </span>
             )}
             <span style={{ marginLeft: 'auto', fontFamily: "'DM Mono', monospace", fontSize: '0.8rem', color: 'var(--cca-gray)' }}>

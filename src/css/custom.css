@@ -581,8 +581,32 @@ code {
   gap: 1.5rem; align-items: start;
 }
 @media (max-width: 780px) {
+  /* Mock exam — question first, palette below as compact scrollable */
   .mock-exam-body { grid-template-columns: 1fr; }
-  .mock-palette { order: -1; }
+  .mock-palette {
+    position: static;
+    max-height: 180px;
+    overflow-y: auto;
+  }
+
+  /* Quiz engine */
+  .quiz-container { padding: 1rem 0.75rem; }
+  .question-card { padding: 1.25rem 1rem; border-radius: 10px; }
+  .quiz-meta { flex-direction: column; gap: 6px; align-items: flex-start; }
+  .quiz-score { font-size: 0.8rem; }
+  .option-btn { padding: 0.75rem 0.9rem; font-size: 0.9rem; }
+  .question-text { font-size: 0.95rem; }
+  .filter-tabs { gap: 6px; }
+  .filter-tab { padding: 5px 10px; font-size: 0.8rem; }
+}
+
+@media (max-width: 480px) {
+  .quiz-container { padding: 0.75rem 0.5rem; }
+  .question-card { padding: 1rem 0.75rem; }
+  .question-text { font-size: 0.9rem; }
+  .mock-palette { max-height: 140px; }
+  .mock-exam-topbar { gap: 0.4rem; }
+  .mock-exam-progress-label { font-size: 0.7rem; }
 }
 .mock-question-area { min-width: 0; }
 .mock-question-header { display: flex; align-items: center; gap: 8px; margin-bottom: 1rem; flex-wrap: wrap; }

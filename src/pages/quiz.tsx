@@ -8,7 +8,7 @@ export default function QuizPage() {
       title="Quiz — CCA Prep"
       description="100 scenario-based practice questions for the CCA Foundations exam. 4 difficulty levels, all 5 domains, with references on every wrong answer."
     >
-      <div style={{ maxWidth: 900, margin: '0 auto', padding: '2rem 1rem 4rem' }}>
+      <div style={{ margin: '0 auto', padding: '2rem 1rem 4rem' }}>
         <div style={{ marginBottom: '1.75rem' }}>
           <h1 style={{ marginBottom: '0.5rem' }}>Practice quiz</h1>
           <p style={{ color: 'var(--ifm-color-emphasis-600)', marginBottom: 0 }}>
