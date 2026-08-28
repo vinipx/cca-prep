@@ -94,6 +94,11 @@ hooks.before('process_payment', async (ctx) => {
 ## Official resources
 
 - Anthropic Academy: https://anthropic.skilljar.com
+- Pearson VUE certification program page (eligibility, retakes, scheduling): https://www.pearsonvue.com/us/en/anthropic.html
 - Agent SDK: https://platform.claude.com/docs/en/agent-sdk/overview
 - Claude Code: https://code.claude.com/docs/en/overview
 - MCP docs: https://modelcontextprotocol.io/docs
+
+## Registration
+
+Exam registration runs through the Anthropic Partner Academy and requires affiliation with a Claude Partner Network organization; there is no individual sign-up. If you have no partner organization, the routes in are an employer that joins the network, a qualifying company of your own, or membership in an existing partner firm ([how the partner-firm route works](https://youraidept.com/network/claude-certification) — disclosure: maintained by YAID, a partner firm).
